@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>File Security Tool</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="min-h-screen flex items-center justify-center bg-gray-100 
+             bg-[radial-gradient(circle_at_top_left,_#c7d2fe,_#e0e7ff,_#f9fafb)]">
+
+  <div class="bg-white shadow-xl rounded-2xl p-10 max-w-lg w-full text-center">
+    <h1 class="text-3xl font-bold text-gray-800 mb-4">🔐 File Security Tool</h1>
+    <p class="text-gray-600 mb-8">Choose what you want to do with your files</p>
+
+    <div class="grid gap-6">
+      <!-- Encrypt Button -->
+      <a href="/encrypt_upload" 
+         class="flex items-center justify-center gap-3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-xl transition transform hover:scale-105 shadow-md">
+        <span>Encrypt a File</span>
+      </a>
+
+      <!-- Decrypt Button -->
+      <a href="/decrypt_upload" 
+         class="flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 rounded-xl transition transform hover:scale-105 shadow-md">
+        <span>Decrypt a File</span>
+      </a>
+    </div>
+
+    <p class="text-xs text-gray-400 mt-8">
+      Files are processed securely and never stored permanently.
+    </p>
+  </div>
+  <div class="text-center mt-6" align="center" style="position: fixed; bottom: 30px;">
+    <!-- Footer -->
+    <footer class="mt-10 text-center text-gray-500 text-sm">
+      <h3 class="font-medium">
+        2025 | Developed by 
+        <a href="https://www.linkedin.com/in/pratik-sayankar-806355200/" target="_blank" class="text-blue-600">
+          Pratik Sayankar
+        </a>
+      </h3>
+    </footer>
+  </div>
+
+</body>
+</html>
